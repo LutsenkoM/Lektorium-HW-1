@@ -1,0 +1,127 @@
+.bg-gray {
+    background-color: #808080;
+}
+.bg-light-gray {
+    background-color: #d3d3d3;
+}
+.padding-10 {
+    padding: 10px;
+}
+.margin-l-10 {
+    margin-left: 10px;
+}
+.margin-r-10 {
+    margin-right: 10px;
+}
+.margin-r-20 {
+    margin-right: 20px;
+}
+.margin-b-20 {
+    margin-bottom: 20px;
+}
+.margin-b-10 {
+    margin-bottom: 10px;
+}
+.margin-t-10 {
+    margin-top: 10px;
+}
+.margin-l-r-20 {
+    margin: 0 20px;
+}
+.margin-l-r-10 {
+    margin: 0 10px;
+}
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-black {
+    color: #000000;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.w-20per {
+    width: 20%;
+}
+.w-30per {
+    width: 30%;
+}
+.w-50per {
+    width: 50%;
+}
+body {
+    padding: 20px;
+    margin: 0;
+}
+header {
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+header div {
+    min-height: 200px;
+}
+section {
+    position: relative;
+    border-bottom: 1px solid #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+section aside {
+    width: 30%;
+}
+section .aside-bottom {
+    position: absolute;
+    width: 30%;
+    min-height: 150px;
+    bottom: 0;
+}
+section .aside-bottom div {
+    min-height: 150px;
+}
+section .content {
+    width: 70%;
+}
+.content-middle {
+    overflow: hidden;
+}
+.content-middle > div {
+    max-width: 100%;
+    width: 20%;
+}
+
+.content-middle > div > div {
+    min-height: 150px;
+}
+.content-bottom {
+    overflow: hidden;
+}
+.content-bottom .f-left {
+    width: 50%;
+}
+.content-bottom div div {
+    min-height: 150px;
+}
+footer {
+    overflow: hidden;
+}
+footer > div {
+    width: 33.3333333%;
+}
+.min-height-200 {
+    min-height: 200px;
+}
+.min-height-90 {
+    min-height: 90px;
+}
